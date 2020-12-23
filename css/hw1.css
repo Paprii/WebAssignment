@@ -1,0 +1,117 @@
+body{
+	margin:15px;
+	padding:4px;
+}
+header{
+	padding:15px;
+	height:150px;
+	opacity: 0.8;
+	background-image: url("../images/flywheel.jpg");
+	background-position: 0 0;
+    background-repeat: no-repeat;
+	background-size: cover;
+	color:#ffffff;
+}
+nav a{
+	display:inline-block;
+	padding:10px 30px;
+	margin:15px 50px;
+	width:100px;
+	text-align:center;
+	background:#B3B3B3;
+	opacity:0.6;
+	text-decoration:none;
+	font-weight:bolder;
+}
+.active{
+	background:#ffffff;
+	color:#3871b4;
+	opacity:100%;
+}
+.left{
+	display:inline-block;
+	width:15%;
+	padding:10px;
+	margin:0px;
+	background:#3e5d09;
+	height:400px;
+}
+.right{
+	display:inline-block;
+	width:80%;
+	padding:1px;
+	margin:0 auto;
+	background:#ffffff;
+	height:400px;
+}
+h1{
+	text-align:center;
+	text-transform: uppercase;
+	font-size:150%;
+}
+h2{
+	color:#30196d;
+}
+aside{
+	display:inline-block;
+	float:left;
+}
+section{
+	display:inline-block;
+	float:left;
+}
+a,span{
+	color:#000000;
+	background:#afabab;
+}
+img{
+	display:block;
+	border: 1px solid ;
+    padding:0px;
+    width: 150px;
+	margin:10px;
+}
+table{
+	font-family:Arial,Courier New;
+	font-size:100%;
+	line-height:120%;
+	width:75%;
+	margin:0px 100px 0px 100px;
+}
+th{
+	background: linear-gradient(#c9db9b 0%, #90ac49 100%);
+	-webkit-background: linear-gradient(#c9db9b 0%, #90ac49 100%);
+	-moz-background: linear-gradient(#c9db9b 0%, #90ac49 100%);
+	-o-background: linear-gradient(#c9db9b 0%, #90ac49 100%);
+	border:#d0ef4d 1px solid;
+	border-bottom:#d0ef4d 4px solid;
+	border-radius: 6px 6px 0px 0px;
+	-webkit-border-radius: 6px 6px 0px 0px;
+	-moz-border-radius: 6px 6px 0px 0px;
+	-o-border-radius: 6px 6px 0px 0px;
+	padding:2px;
+}
+tr{
+	opacity:.8;
+}
+td:nth-child(3n+1){
+	text-align:left;
+}
+td:nth-child(3n+2){
+	text-align:center;
+}
+td:nth-child(3n+3){
+	text-align:center;
+}
+tr:hover{
+	opacity:1;
+}
+td{
+	padding:2px;
+	color:#306550;
+	background:#b4dcb8;
+	border-radius:2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius:2px;
+	-o-border-radius:2px;
+}
